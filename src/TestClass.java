@@ -18,7 +18,7 @@ public class TestClass {
     public void setValue(int value) {
         value++;
         this.value = value;
-        this.value += 3;
+        this.value += 4;
 
     }
 }
