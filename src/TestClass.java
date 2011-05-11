@@ -8,16 +8,16 @@
 public class TestClass {
     private  int value = 0;
     private int tmp = 123;
-    private int b;
+
 
     public TestClass() {
     }
 
-    public int getValue() {
-        return value;
-    }
+   
 
     public void setValue(int value) {
+        value++;
         this.value = value;
+        this.value += 1;
     }
 }
